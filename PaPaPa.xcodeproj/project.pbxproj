@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AEA127871F343F740084A5F2 /* UploadParam.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA127861F343F740084A5F2 /* UploadParam.m */; };
+		AEA1278A1F34406F0084A5F2 /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA127891F34406F0084A5F2 /* HttpRequest.m */; };
+		AEAE89E51F31BAE500E8624A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEAE89E31F31BAE500E8624A /* LoginViewController.m */; };
+		AEAE89E61F31BAE500E8624A /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEAE89E41F31BAE500E8624A /* LoginViewController.xib */; };
+		AEAE89E91F31C9BF00E8624A /* HTNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = AEAE89E81F31C9BF00E8624A /* HTNetworkTool.m */; };
 		AEFE65F61F3178DA00AD7B04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFE65F51F3178DA00AD7B04 /* main.m */; };
 		AEFE65F91F3178DA00AD7B04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFE65F81F3178DA00AD7B04 /* AppDelegate.m */; };
-		AEFE65FC1F3178DA00AD7B04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFE65FB1F3178DA00AD7B04 /* ViewController.m */; };
-		AEFE65FF1F3178DA00AD7B04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFE65FD1F3178DA00AD7B04 /* Main.storyboard */; };
 		AEFE66011F3178DA00AD7B04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFE66001F3178DA00AD7B04 /* Assets.xcassets */; };
 		AEFE66041F3178DA00AD7B04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFE66021F3178DA00AD7B04 /* LaunchScreen.storyboard */; };
 		AEFE660F1F3178DA00AD7B04 /* PaPaPaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFE660E1F3178DA00AD7B04 /* PaPaPaTests.m */; };
 		AEFE661A1F3178DA00AD7B04 /* PaPaPaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFE66191F3178DA00AD7B04 /* PaPaPaUITests.m */; };
+		AEFE662A1F317C8300AD7B04 /* HTRootBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFE66291F317C8300AD7B04 /* HTRootBarViewController.m */; };
+		D35F85E4DD5FB0CD7670D211 /* libPods-PaPaPa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 922CCB29D8B1E0C23F1F095D /* libPods-PaPaPa.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +40,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		922CCB29D8B1E0C23F1F095D /* libPods-PaPaPa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PaPaPa.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A11CED8C01287E13EE7A972 /* Pods-PaPaPa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaPaPa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaPaPa/Pods-PaPaPa.debug.xcconfig"; sourceTree = "<group>"; };
+		AEA127851F343F740084A5F2 /* UploadParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadParam.h; sourceTree = "<group>"; };
+		AEA127861F343F740084A5F2 /* UploadParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadParam.m; sourceTree = "<group>"; };
+		AEA127881F34406F0084A5F2 /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequest.h; sourceTree = "<group>"; };
+		AEA127891F34406F0084A5F2 /* HttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequest.m; sourceTree = "<group>"; };
+		AEAE89E21F31BAE500E8624A /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		AEAE89E31F31BAE500E8624A /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		AEAE89E41F31BAE500E8624A /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		AEAE89E71F31C9BF00E8624A /* HTNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTNetworkTool.h; sourceTree = "<group>"; };
+		AEAE89E81F31C9BF00E8624A /* HTNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTNetworkTool.m; sourceTree = "<group>"; };
 		AEFE65F11F3178DA00AD7B04 /* PaPaPa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaPaPa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFE65F51F3178DA00AD7B04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AEFE65F71F3178DA00AD7B04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AEFE65F81F3178DA00AD7B04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AEFE65FA1F3178DA00AD7B04 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AEFE65FB1F3178DA00AD7B04 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AEFE65FE1F3178DA00AD7B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AEFE66001F3178DA00AD7B04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEFE66031F3178DA00AD7B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEFE66051F3178DA00AD7B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +64,9 @@
 		AEFE66151F3178DA00AD7B04 /* PaPaPaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaPaPaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFE66191F3178DA00AD7B04 /* PaPaPaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaPaPaUITests.m; sourceTree = "<group>"; };
 		AEFE661B1F3178DA00AD7B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEFE66281F317C8300AD7B04 /* HTRootBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTRootBarViewController.h; sourceTree = "<group>"; };
+		AEFE66291F317C8300AD7B04 /* HTRootBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTRootBarViewController.m; sourceTree = "<group>"; };
+		F4EC189762B6B93F9C710871 /* Pods-PaPaPa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaPaPa.release.xcconfig"; path = "Pods/Target Support Files/Pods-PaPaPa/Pods-PaPaPa.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D35F85E4DD5FB0CD7670D211 /* libPods-PaPaPa.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +102,8 @@
 				AEFE660D1F3178DA00AD7B04 /* PaPaPaTests */,
 				AEFE66181F3178DA00AD7B04 /* PaPaPaUITests */,
 				AEFE65F21F3178DA00AD7B04 /* Products */,
+				E6A565BFD64634EDF0DCE34E /* Pods */,
+				F1FEEF5316480B711CE0BE20 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +120,7 @@
 		AEFE65F31F3178DA00AD7B04 /* PaPaPa */ = {
 			isa = PBXGroup;
 			children = (
-				AEFE65F71F3178DA00AD7B04 /* AppDelegate.h */,
-				AEFE65F81F3178DA00AD7B04 /* AppDelegate.m */,
-				AEFE65FA1F3178DA00AD7B04 /* ViewController.h */,
-				AEFE65FB1F3178DA00AD7B04 /* ViewController.m */,
-				AEFE65FD1F3178DA00AD7B04 /* Main.storyboard */,
-				AEFE66001F3178DA00AD7B04 /* Assets.xcassets */,
-				AEFE66021F3178DA00AD7B04 /* LaunchScreen.storyboard */,
-				AEFE66051F3178DA00AD7B04 /* Info.plist */,
+				AEFE66271F317C3900AD7B04 /* MainVC */,
 				AEFE65F41F3178DA00AD7B04 /* Supporting Files */,
 			);
 			path = PaPaPa;
@@ -117,6 +129,11 @@
 		AEFE65F41F3178DA00AD7B04 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AEFE65F71F3178DA00AD7B04 /* AppDelegate.h */,
+				AEFE65F81F3178DA00AD7B04 /* AppDelegate.m */,
+				AEFE66001F3178DA00AD7B04 /* Assets.xcassets */,
+				AEFE66021F3178DA00AD7B04 /* LaunchScreen.storyboard */,
+				AEFE66051F3178DA00AD7B04 /* Info.plist */,
 				AEFE65F51F3178DA00AD7B04 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +157,41 @@
 			path = PaPaPaUITests;
 			sourceTree = "<group>";
 		};
+		AEFE66271F317C3900AD7B04 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				AEFE66281F317C8300AD7B04 /* HTRootBarViewController.h */,
+				AEFE66291F317C8300AD7B04 /* HTRootBarViewController.m */,
+				AEAE89E21F31BAE500E8624A /* LoginViewController.h */,
+				AEAE89E31F31BAE500E8624A /* LoginViewController.m */,
+				AEAE89E41F31BAE500E8624A /* LoginViewController.xib */,
+				AEAE89E71F31C9BF00E8624A /* HTNetworkTool.h */,
+				AEAE89E81F31C9BF00E8624A /* HTNetworkTool.m */,
+				AEA127851F343F740084A5F2 /* UploadParam.h */,
+				AEA127861F343F740084A5F2 /* UploadParam.m */,
+				AEA127881F34406F0084A5F2 /* HttpRequest.h */,
+				AEA127891F34406F0084A5F2 /* HttpRequest.m */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		E6A565BFD64634EDF0DCE34E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A11CED8C01287E13EE7A972 /* Pods-PaPaPa.debug.xcconfig */,
+				F4EC189762B6B93F9C710871 /* Pods-PaPaPa.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F1FEEF5316480B711CE0BE20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				922CCB29D8B1E0C23F1F095D /* libPods-PaPaPa.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEFE661E1F3178DA00AD7B04 /* Build configuration list for PBXNativeTarget "PaPaPa" */;
 			buildPhases = (
+				6A1D5DE48D25EA0CA05B9A76 /* [CP] Check Pods Manifest.lock */,
 				AEFE65ED1F3178D900AD7B04 /* Sources */,
 				AEFE65EE1F3178D900AD7B04 /* Frameworks */,
 				AEFE65EF1F3178D900AD7B04 /* Resources */,
+				5D5DB09D78C6099FF871C0C2 /* [CP] Embed Pods Frameworks */,
+				7D358814C6D19FDA6C19BD03 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +262,7 @@
 				TargetAttributes = {
 					AEFE65F01F3178D900AD7B04 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TWFCDJ26H8;
 						ProvisioningStyle = Automatic;
 					};
 					AEFE66091F3178DA00AD7B04 = {
@@ -248,7 +304,7 @@
 			files = (
 				AEFE66041F3178DA00AD7B04 /* LaunchScreen.storyboard in Resources */,
 				AEFE66011F3178DA00AD7B04 /* Assets.xcassets in Resources */,
-				AEFE65FF1F3178DA00AD7B04 /* Main.storyboard in Resources */,
+				AEAE89E61F31BAE500E8624A /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,13 +324,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5D5DB09D78C6099FF871C0C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PaPaPa/Pods-PaPaPa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A1D5DE48D25EA0CA05B9A76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7D358814C6D19FDA6C19BD03 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PaPaPa/Pods-PaPaPa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AEFE65ED1F3178D900AD7B04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEFE65FC1F3178DA00AD7B04 /* ViewController.m in Sources */,
+				AEA127871F343F740084A5F2 /* UploadParam.m in Sources */,
+				AEAE89E51F31BAE500E8624A /* LoginViewController.m in Sources */,
 				AEFE65F91F3178DA00AD7B04 /* AppDelegate.m in Sources */,
+				AEAE89E91F31C9BF00E8624A /* HTNetworkTool.m in Sources */,
+				AEA1278A1F34406F0084A5F2 /* HttpRequest.m in Sources */,
+				AEFE662A1F317C8300AD7B04 /* HTRootBarViewController.m in Sources */,
 				AEFE65F61F3178DA00AD7B04 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,14 +419,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AEFE65FD1F3178DA00AD7B04 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AEFE65FE1F3178DA00AD7B04 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AEFE66021F3178DA00AD7B04 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -422,9 +522,14 @@
 		};
 		AEFE661F1F3178DA00AD7B04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A11CED8C01287E13EE7A972 /* Pods-PaPaPa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = TWFCDJ26H8;
 				INFOPLIST_FILE = PaPaPa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chihaitao.PaPaPa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,9 +538,14 @@
 		};
 		AEFE66201F3178DA00AD7B04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4EC189762B6B93F9C710871 /* Pods-PaPaPa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = TWFCDJ26H8;
 				INFOPLIST_FILE = PaPaPa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chihaitao.PaPaPa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +617,7 @@
 				AEFE66201F3178DA00AD7B04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AEFE66211F3178DA00AD7B04 /* Build configuration list for PBXNativeTarget "PaPaPaTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +626,7 @@
 				AEFE66231F3178DA00AD7B04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AEFE66241F3178DA00AD7B04 /* Build configuration list for PBXNativeTarget "PaPaPaUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +635,7 @@
 				AEFE66261F3178DA00AD7B04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

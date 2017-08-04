@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HTRootBarViewController.h
 //  PaPaPa
 //
 //  Created by CHT on 2017/8/2.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HTRootBarViewController : UITabBarController
 
 @end
-
