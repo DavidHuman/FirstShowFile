@@ -1,0 +1,36 @@
+//
+//  PrefixHeader.pch
+//  PaPaPa
+//
+//  Created by CHT on 2017/8/7.
+//  Copyright © 2017年 chihaitao. All rights reserved.
+//
+#import <Availability.h>
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#ifdef __OBJC__
+
+#import "HttpRequest.h"
+#import "AFNetworking.h"
+#import "MBProgressHUD.h"
+#import "MJExtension.h"
+#import "BottomHudViewController.h"
+#import "url.h"
+#import "UIColor+QL.h"
+#import "UIView+Extension.h"
+#import "NSMutableDictionary+QL.h"
+#import "UIImageView+WebCache.h"
+
+#define MainWidth [UIScreen mainScreen].bounds.size.width
+#define MainHeight [UIScreen mainScreen].bounds.size.height
+#define SHOW_CONTENT(content,view) [BottomHudViewController HudOnCentent:(content) View:(view)]
+
+
+
+//颜色
+#define yyNavigationBarColor [UIColor ql_colorWithHex:@"272c30"]
+#define YYWhiteColor [UIColor ql_colorWithHex:@"ffffff"]
+
+
+#endif /* PrefixHeader_pch */
+#endif

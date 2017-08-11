@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "LoginViewController.h"
+#import "UMMobClick/MobClick.h"
 @interface AppDelegate ()
 
 @end
@@ -24,6 +25,16 @@
     LoginViewController *rootControl = [[LoginViewController alloc] init];
     self.window.rootViewController = rootControl;
     
+#pragma mark -- 友盟
+    UMConfigInstance.appKey = @"598c2484ae1bf84b26001607";
+    UMConfigInstance.channelId = @"";
+    [MobClick startWithConfigure:UMConfigInstance];
+#ifdef DEBUG
+    [MobClick setLogEnabled:YES];
+#else
+    [MobClick setLogEnabled:NO];
+#endif
+   
     return YES;
 }
 
